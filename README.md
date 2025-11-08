@@ -1,16 +1,41 @@
-# React + Vite
+# Desafio 3 - Processo Trainee Frontend: Quadro Kanban
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um quadro Kanban interativo  construído como parte do Desafio 3 para o processo seletivo de trainee frontend.
 
-Currently, two official plugins are available:
+É uma aplicação de página única (SPA) construída com React, demonstrando conceitos centrais como arquitetura baseada em componentes, gerenciamento de estado com React Hooks e manipulação dinâmica de eventos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## React Compiler
+- **Scroll Horizontal**: Visualize todas as colunas em uma única interface rolável.
+- **Arrastar e Soltar (Drag & Drop)**: Mova tarefas facilmente entre as colunas.
+- **Adicionar Tarefas**: Adicione novas tarefas rapidamente a qualquer coluna.
+- **Títulos de Coluna Editáveis**: Clique no título de qualquer coluna para renomeá-la.
+- **React Puro (Sem Dependências)**: A aplicação é estilizada usando CSS-in-JS (estilos inline) e não possui dependências de bibliotecas CSS externas, tornando-a leve e autossuficiente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Usado para construir a interface do usuário e gerenciar o estado da aplicação.
+- **React Hooks**: (`useState`) para todo o gerenciamento de estado (tarefas, colunas, estado de "arrastar").
+- **CSS-in-JS**: (Objetos de estilo inline) para toda a estilização de componentes, removendo a necessidade de arquivos ou bibliotecas CSS externas.
+- **Lucide React**: Para ícones simples e limpos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como Executar o Projeto Localmente
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Maria-Laura-Regis/Desafio3-Frontend-Kanban
+   cd Desafio3-Frontend-Kanban
+Instale as dependências:
+
+bash
+npm install
+
+
+Execute o servidor de desenvolvimento:
+
+bash
+npm run dev
+
+
+Abra a aplicação:
+Acesse http://localhost:5173 (ou a URL fornecida no seu terminal) no seu navegador.
